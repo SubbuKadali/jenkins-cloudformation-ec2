@@ -1,7 +1,7 @@
 provider "aws" {
   region = "ap-southeast-2"  # Sydney region
 }
-
+ 
 # Use Sydney-specific AMI (Amazon Linux 2)
 data "aws_ami" "amazon_linux_2" {
   most_recent = true
